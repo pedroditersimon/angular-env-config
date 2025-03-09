@@ -1,6 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+package-lock.json
 pnpm-lock.yaml
+
+.angular
 
 # Compiled output
 /dist
@@ -21,6 +24,8 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.vscode
+.editorconfig
 
 # Visual Studio Code
 .vscode/*
